@@ -1,8 +1,6 @@
 body {
-  heigth: 100vh;
   font-family: 'Slabo 27px', serif;
-  background-color: #f3f3f3;
-  background-image: url('../images/backg.jpeg');
+  background-image: url('../images/backg.jpeg') !important;
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -10,17 +8,12 @@ body {
 #section1 {padding-top:50px;padding-left:50px;padding-right:50px;padding-bottom:50px;color: #fff; background-color: rgba(30,126,229,0.48);}
 #section2 {padding-top:50px;padding-left:50px;padding-right:50px;padding-bottom:50px;color: #fff; background-color:rgba(103, 58, 183, 0.46);;}
 #section3 {padding-top:50px;padding-left:50px;padding-right:50px;padding-bottom:50px;color: #fff; background-color: rgba(255, 152, 0, 0.78);}
-<<<<<<< HEAD
-.container1,.container2,.container3,.container4,.container5,.container6,.container7,.container8{
-  margin: auto;
-=======
 .container1,.container2,.container3,
 .container4,.container5,.container6,
 .container7,.container8,.container9,
 .container10,.container11,.container12,
 .container13{
   margin: 0 auto;
->>>>>>> 9bd1a4ad38c187c1ed63524f7e1d013ec98a7bd8
   padding-left: 10px;
   padding-right: 10px;
   width: 60%;
