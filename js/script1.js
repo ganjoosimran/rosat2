@@ -49,11 +49,7 @@ function findselected() {
     }
 }
 
-$( document ).ready( function (){
-
-    $('.carousel').carousel({
-        interval: false,
-        pause: true
-    })
-
-});
+    // $('.carousel').carousel({
+    //     interval: false,
+    //     pause: true
+    // })
