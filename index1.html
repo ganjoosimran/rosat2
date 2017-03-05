@@ -25,12 +25,6 @@
 <body>
     <form>
       <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
         <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
@@ -185,6 +179,7 @@
               !!!!!!!!!!!!!!!!!!!
               !!!!!!!!!!!!!!!!!!
                Address Details-->
+               <!-- TODO:add permanent address  shit-->
                 <div class="container4 container-fluid">
                   <h3>Present Address</h3>
                   <div class="form-group">
@@ -375,6 +370,10 @@
                     </div>
                     <span class="clearfix"></span>
                   </div>
+                  <div class="form-check">
+                    <label for="text-input">School</label>
+                    <input type="text" class="form-control"  placeholder="Enter School" required>
+                  </div>
                   <fieldset class="form-group">
                     <label>Area</label>
                     <div class="form-check">
@@ -469,6 +468,10 @@
                       <option>Uttarakhand</option>
                       <option>West Bengal</option>
                     </select>
+                  </div>
+                  <div class="form-check">
+                    <label for="text-input">School</label>
+                    <input type="text" class="form-control"  placeholder="Enter School" required>
                   </div>
                   <div class="area2">
                     <fieldset class="form-group">
@@ -599,7 +602,7 @@
             </div>
           </div>
 
-            <div class="item">
+            <div class="item ">
               <div id="section3" class="container-fluid">
                 <!-- div container 9
               !!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -609,9 +612,11 @@
                   <h1>Curricular, Co-curricular, extra-curricular information</h1>
                   <br>
                   <h3>Curricular Details</h3>
-
+                  <label>Awards</label>
+                  <br>
                   <input class="dropdown" list="curr" name="curr" />
                   <datalist id="curr">
+                    <option value="None">
                     <option value="Best Student">
                     <option value="School Captain">
                     <option value="House/Club Captain">
@@ -635,13 +640,13 @@
                 !!!!!!!!!!!!!!!!!!!!!!!!!!!!
 git ad                Co-Curricular details-->
                 <div class="container10 container-fluid">
-                  <h4>Co-Curricular Details</h4>
+                  <h3>Co-Curricular Details</h3>
                     <div class="form-group">
                       <label for="text-input">Name Technical Skill(s)</label>
                       <div class="area">
                         <input class="dropdown" list="skills" name="skills" />
                         <datalist id="skills">
-                          <option value="Best Student">
+                          <option value="None">
                           <option value="Analytics">
                           <option value="Analytical">
                           <option value="Applications">
@@ -780,58 +785,23 @@ git ad                Co-Curricular details-->
                           <span>Self Trained</span>
                         </label>
                       </div>
-                      <div class="column column12">
-                        <label>
-                          <span>Other</span>
-                        </label>
-                        <div class="area">
-                          <textarea name="Text1" cols="40" rows="5" required></textarea>
-                        </div>
-                      </div>
                       <span class="clearfix"></span>
                     </div>
                     <div class="form-group">
                       <h4>Inter-school/ inter college Competition</h4>
                       <label class="title">Type</label>
-                      <div class="column column11">
-                        <label>
-                          <input type="checkbox"/>
-                          <span>Technical/Science Quiz</span>
-                        </label>
+                      <div class="area2">
+                        <input class="dropdown" list="comp" name="comp" />
+                        <datalist id="comp">
+                          <option value="Technical/Science Quiz">
+                          <option value=" Debate">
+                          <option value="Group discussion">
+                          <option value="Essay writing">
+                          <option value="Paper presentation">
+                          <option value="Science projects">
+                          <option value="None">
+                        </datalist>
                       </div>
-                      <div class="column column11">
-                        <label>
-                          <input type="checkbox"/>
-                          <span>Debate</span>
-                        </label>
-                      </div>
-                      <div class="column column11">
-                        <label>
-                          <input type="checkbox"/>
-                          <span>Group discussion</span>
-                        </label>
-                      </div>
-                      <div class="column column11">
-                        <label>
-                          <input type="checkbox" />
-                          <span>Essay writing</span>
-                        </label>
-                      </div>
-                      <div class="column column11">
-                        <label>
-                          <input type="checkbox" />
-                          <span>Paper presentation, Science projects</span>
-                        </label>
-                      </div>
-                      <div class="column column12">
-                        <label>
-                          <span>Other</span>
-                        </label>
-                        <div class="area">
-                          <textarea name="Text1" cols="40" rows="5" requireds></textarea>
-                        </div>
-                      </div>
-                      <span class="clearfix"></span>
                     </div>
                 </div>
                 <!-- div container 11
@@ -845,7 +815,7 @@ git ad                Co-Curricular details-->
                       <label>
                         <span>Name of Sport(s)</span>
                       </label>
-                      <div class="area">
+                      <div class="area3">
                         <input class="dropdown" list="sports" name="sport" />
                         <datalist id="sports">
                           <option value="Archery">
@@ -866,6 +836,8 @@ git ad                Co-Curricular details-->
                           <option value="Vollyball">
                           <option value="Weightlifting">
                           <option value="Wrestling">
+                          <option value="None">
+
                         </datalist>
                       </div>
                     </div>
@@ -933,8 +905,24 @@ git ad                Co-Curricular details-->
                     <label>
                       <span>Name of Skill(s)</span>
                     </label>
-                    <div class="area">
-                      <textarea name="Text1" cols="40" rows="5" required></textarea>
+                    <div class="area4">
+                      <input class="dropdown" list="cult" name="cult" />
+                      <datalist id="cult">
+                        <option value="Dance">
+                        <option value="Singing">
+                        <option value="Instrument">
+                        <option value="Modelling">
+                        <option value="Fashion Designing">
+                        <option value="Interior Designing">
+                        <option value="Stiching">
+                        <option value="Acting">
+                        <option value="Directing">
+                        <option value="DJ">
+                        <option value="Drawing">
+                        <option value="Craft">
+                        <option value="Painting">
+                        <option value="None">
+                      </datalist>
                     </div>
                   </div>
                   <div class="capacity">
@@ -993,7 +981,8 @@ git ad                Co-Curricular details-->
                     -->
                 </div>
               </div>
-              <button class="sub" type="submit">
+              <!-- TODO: validation -->
+              <button class="submit-button" type="submit">
                 <span class="icon" ><img src="images/submit.png"></span>
               </button>
             </div>
