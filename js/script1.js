@@ -48,8 +48,3 @@ function findselected() {
         $("#inputtext").removeAttribute('disabled');
     }
 }
-
-    // $('.carousel').carousel({
-    //     interval: false,
-    //     pause: true
-    // })
