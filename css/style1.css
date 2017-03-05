@@ -52,9 +52,10 @@ h1{
   margin: 0 1em 0 auto;
 
 }
-.sub{
+.submit-button{
   border: none;
   background-color: transparent;
+  border-radius: 50px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
