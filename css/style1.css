@@ -1,3 +1,61 @@
+<<<<<<< HEAD
+body {
+    position: relative;
+     background-color: black;
+
+}
+.next1{
+  background-color:rgba(14,60,110,1);
+  border: none;
+  }
+  .butt1,.butt2{
+    margin-left: 65%;
+  }
+#section1 {padding-top:50px;padding-left:50px;padding-right:50px;padding-bottom:50px;color: #fff; background-color: rgba(30,126,229,0.48);}
+#section2 {padding-top:50px;padding-left:50px;padding-right:50px;padding-bottom:50px;color: #fff; background-color:rgba(103, 58, 183, 0.46);}
+#section3 {padding-top:50px;padding-left:50px;padding-right:50px;padding-bottom:50px;color: #fff; background-color: rgba(255, 152, 0, 0.78);}
+.container1,.container2,.container3,.container4,.container5,.container6,.container7,.container8{
+margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 60%;
+}
+.container9,.container10,.container11,.container12,.container13{
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 60%;
+}
+.dropdown{
+  color: black;
+  font-size: 15px;
+  font-weight: 0.05px;
+}
+.date{
+  margin-left: 14px;
+  margin-right: 14px;
+}
+#emailhelp{
+  color:black;
+}
+.country{
+  color: black;
+}
+.area{
+color: black;
+}
+.btn{
+  text-align: center;
+  margin-left: 45%;
+  margin-bottom: 50px;
+}
+h3{
+  margin-bottom: 50px;
+}
+h1{
+  margin-bottom: 50px;
+}
+=======
 body {
     position: relative;
      background-color: black;
@@ -42,3 +100,4 @@ h3{
 h1{
   margin-bottom: 50px;
 }
+>>>>>>> 4467263849be91909097b608250755f4cf2e8e68
