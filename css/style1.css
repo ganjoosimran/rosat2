@@ -1,6 +1,7 @@
 body {
   font-family: 'Slabo 27px', serif;
-  background-image: url('../images/backg.jpeg') !important;
+  background-color: #f3f3f3;
+  background-image: url('../images/backg.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
 
