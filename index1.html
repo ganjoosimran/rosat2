@@ -20,7 +20,6 @@
   </style>
 </head>
 
-<body>
     <form>
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -195,6 +194,7 @@
                     <label for="text-input">District</label>
                     <input type="text" class="form-control" placeholder="Enter district" required>
                   </div>
+                  <div class="form-group">
                   <div class="form-group">
                     <label for="text-input">Pin-Code</label>
                     <input type="text" class="form-control"  placeholder="Enter pin-code" required>
@@ -648,6 +648,8 @@
                   <h1>Curricular, Co-curricular, extra-curricular information</h1>
                   <br>
                   <h3>Curricular Details</h3>
+
+                  <input class="dropdown" list="curr" name="curr" />
                   <datalist id="curr">
                     <option value="Best Student">
                     <option value="School Captain">
@@ -670,7 +672,7 @@
 
                 <!-- div container 10
                 !!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                !!!!!!!!!!!!!!!!!!!!!!!!!
+                !!!!!!git ad!!!!!!!!!!!!!!!!!!!
                 Co-Curricular details-->
                 <div class="container10 container-fluid">
                   <h4>Co-Curricular Details</h4>
@@ -678,6 +680,7 @@
                       <label for="text-input">Name Technical Skill(s)</label>
                       <div class="area">
 
+                        <input class="dropdown" list="skills" name="skills" />
                         <datalist id="skills">
                           <option value="Best Student">
                           <option value="Analytics">
@@ -889,7 +892,7 @@
                       </label>
                       <div class="area">
 
-                        <input class="dropdown" list="sports" name="sport" /></label>
+                        <input class="dropdown" list="sports" name="sport" />
                         <datalist id="sports">
                           <option value="Archery">
                           <option value="Athletics">
@@ -1040,7 +1043,8 @@
               <input type="Submit"/>
             </div>
 
-          </div>
+            </div>
+        </div>
       </div>
     </form>
 
