@@ -1,0 +1,14 @@
+.gif{
+  margin-left: 80px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+.cont{
+background-color: #6ce7ec;
+font-family: 'Slabo 27px', serif;
+text-transform: uppercase;
+letter-spacing: 5px;
+margin-bottom: 1em;
+display: block;
+text-align: center;
+}
